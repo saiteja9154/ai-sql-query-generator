@@ -101,10 +101,10 @@ export default function Sidebar({ activeView, setActiveView, theme, toggleTheme,
           {/* User Profile */}
           <div className="flex items-center gap-3.5 pt-4 border-t border-border-card">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-blue to-brand-purple flex items-center justify-center text-white font-bold font-outfit shadow-sm">
-              AJ
+              ST
             </div>
             <div>
-              <div className="font-semibold text-sm text-text-primary leading-tight">Alex Johnson</div>
+              <div className="font-semibold text-sm text-text-primary leading-tight">Sai Teja</div>
               <span className="text-xs text-text-muted">Data Analyst</span>
             </div>
           </div>

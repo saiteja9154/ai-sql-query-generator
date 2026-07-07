@@ -68,7 +68,7 @@ export default function HomeView({
               <select 
                 value={aiModel} 
                 onChange={(e) => setAiModel(e.target.value)}
-                className="bg-bg-primary/80 border border-border-card text-text-primary rounded-lg px-2 py-1 text-xs outline-none focus:border-brand-purple transition-all duration-200"
+                className="bg-bg-primary border border-border-card text-text-primary rounded-lg px-2 py-1 text-xs outline-none focus:border-brand-purple transition-all duration-200"
               >
                 <option value="gpt4">GPT-4 Turbo</option>
                 <option value="gemini">Gemini 1.5 Flash</option>
@@ -83,7 +83,7 @@ export default function HomeView({
               value={englishInput}
               onChange={(e) => setEnglishInput(e.target.value)}
               placeholder="Example: Show all students who scored more than 8.5 in exams..."
-              className="w-full h-36 bg-bg-primary/40 text-text-primary placeholder-text-muted border border-border-card rounded-xl p-4 text-sm font-mono focus:border-brand-purple focus:ring-1 focus:ring-brand-purple outline-none resize-none transition-all duration-200"
+              className="w-full h-36 bg-bg-card text-text-primary placeholder-text-muted border border-border-card rounded-xl p-4 text-sm font-mono focus:border-brand-purple focus:ring-1 focus:ring-brand-purple outline-none resize-none transition-all duration-200 caret-text-primary selection:bg-brand-purple/30 selection:text-text-primary"
             />
           </div>
 
