@@ -26,7 +26,7 @@ if %ERRORLEVEL% neq 0 (
 
 echo.
 echo [3/4] Launching FastAPI Server (Port 8000)...
-start "SQL Generator Backend" cmd /c "uvicorn main:app --reload --host 127.0.0.1 --port 8000"
+start "SQL Generator Backend" cmd /c "python main.py"
 cd ..
 
 echo.
